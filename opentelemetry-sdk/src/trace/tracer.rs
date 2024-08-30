@@ -53,7 +53,7 @@ impl Tracer {
     }
 
     /// TracerProvider associated with this tracer.
-    pub(crate) fn provider(&self) -> &TracerProvider {
+    pub fn provider(&self) -> &TracerProvider {
         &self.provider
     }
 
